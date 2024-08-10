@@ -1,0 +1,55 @@
+.about-page {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  .about-intro, .about-features, .about-team, .about-contact {
+    margin-bottom: 40px;
+  }
+  
+  .about-intro h2, .about-features h2, .about-team h2, .about-contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .features-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .feature-item {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-item h3 {
+    margin-top: 0;
+  }
+  
+  .about-contact a {
+    color: #4caf50;
+    text-decoration: none;
+  }
+  
+  .about-contact a:hover {
+    text-decoration: underline;
+  }
+  

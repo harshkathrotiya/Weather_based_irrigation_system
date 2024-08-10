@@ -1,0 +1,41 @@
+.sliding-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .sliding-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .slide-item {
+    position: relative;
+  }
+  
+  .slide-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .slide-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .slide-content h3 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .slide-content p {
+    margin: 5px 0 0;
+    font-size: 1em;
+  }
+  
